@@ -13,6 +13,7 @@ body {
   font-size: 16px;
   font-family: 'Comic Sans', 'Arial Narrow', Arial, sans-serif;
   font-weight: lighter;
+  margin: 5%;
 }
 
 h2 {
@@ -70,7 +71,16 @@ main {
 
 
 /* Skills Section */
+#icons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  
+}
 
+.fa-solid, .fa-brands {
+  font-size: 200%;
+}
 
 
 /* Contact Section */
