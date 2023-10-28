@@ -9,15 +9,20 @@
 
 /* Universal Style */
 body {
-  background-color: rgb(164, 242, 164);
-  font-size: 16px;
+  background-color: white;
+  font-size: 20px;
   font-family: 'Comic Sans', 'Arial Narrow', Arial, sans-serif;
   font-weight: lighter;
-  margin: 5%;
+  margin: 2%;
+}
+
+.name {
+  font-size: 400%;
+  margin: -5px 0;
 }
 
 h2 {
-  text-align: center;
+  font-size: 30px;
 }
 
 
@@ -48,7 +53,8 @@ main {
   display: flex;
   flex-direction: column;
   width: 100%;
-}
+  text-align: justify;
+  }
 
 .photo {
   width: 30%;
@@ -60,13 +66,13 @@ main {
 
 
 /* Projects Section */
-.projects-list {
-  list-style: circle;
+
+img {
+    width: 40%;
 }
 
-.projects-list a {
-  color: black;
-  text-decoration: none;
+.Projects {
+  display: inline-flex;
 }
 
 
