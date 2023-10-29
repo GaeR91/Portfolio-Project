@@ -81,7 +81,12 @@ img {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  
+}
+
+#contact-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
 }
 
 .fa-solid, .fa-brands {
