@@ -35,7 +35,7 @@
         Hi! I'm Gaetano, but friends call me Guy. I'm an Italian Nurse who wants to change life and career, becoming a Web Developer.<br><br>
         I've graduated in 2014 and after almost 10 years of working in the NHS, I have decided to improve my quality of life. How? Well, studying to get a job in the IT world and move to Barcelona one day.<br><br>
         You are probably asking yourself: "He just said that he is italian, didn't he?". Yes, you are right, I am Italian, from Sicily if we want to be precise, but since I went to Spain last summer I madly fell in love with that country and its culture.<br><br>
-        I've been coding since September, so not long, but I am 100% (git) commit(ted) to persue my goal.<br><br>
+        I've been coding since September (<span id='seconds-counter'></span>), so not long, but I am 100% (git) commit(ted) to persue my goal.<br><br>
         I'm super friendly, open-minded and I love readings and walking around discovering new places. I also love challanges, so I'm not afraid of getting stuck with a bug.<br><br>
         I'm gonna leave you with an IT joke: "Why do programmers prefer dark mode? ... 'cause light attracts bugs."<br><br>
         Ah, I almost forgot! I can also speak human languages LOL<br><br>
@@ -76,20 +76,25 @@
         </div>
       </div>
 
-
-
-
-
-
-<!-- Contact Section -->
-
-
     </main>
+
 <!-- Footer Section -->
+    <footer>
+      <p class="footer-p">Page created by</p>
+      <p class="footer-p">Gaetano Romano</p>
+    </footer>
 
+<!-- JS CODE -->
+    <script>
+      var seconds = 5259492;
+      var el = document.getElementById('seconds-counter');
 
+      function incrementSeconds() {
+        seconds += 1;
+        el.innerText = seconds + " seconds";
+}
 
-<script>
-</script>
+      var cancel = setInterval(incrementSeconds, 1000);
+    </script>
   </body>
 </html>
